@@ -1,6 +1,7 @@
 <template>
   <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-   <g-icon v-if="icon" :name="icon"></g-icon>
+    <g-icon v-if="icon" class="icon" :name="icon"></g-icon>
+    <g-icon class="loading" :name=" 'jiazai' "></g-icon>
     <div class="content">
       <slot>--名称--</slot>
 
@@ -27,6 +28,15 @@
 </script>
 
 <style lang="scss" scoped>
+  @keyframes spin {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .g-button {
     font-size: var(--font-size);
     height: var(--button-height);
@@ -39,7 +49,9 @@
     align-items: center;
     /*内联样式会出现上下不对齐的奇怪问题，修改vertical-align就可以了*/
     vertical-align: middle;
-
+    .loading{
+      animation: spin 1s infinite linear;
+    }
     &:hover {
       border-color: var(--border-color-hover);
     }
@@ -53,7 +65,7 @@
     }
 
     &.icon-left {
-      > .g-icon {
+      > .icon {
         order: 1;
         margin-right: .1em;
       }
@@ -64,11 +76,12 @@
     }
 
     &.icon-right {
-      > .g-icon {
+      > .icon {
         order: 2;
         margin-left: .1em;
       }
-      > .content{
+
+      > .content {
         order: 1;
       }
     }
