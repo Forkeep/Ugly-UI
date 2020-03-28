@@ -12,7 +12,19 @@
 
 <script>
   export default {
-    props: ['icon', 'iconPosition']
+    // props: ['icon', 'iconPosition']
+    props: {
+      icon: {},
+      iconPosition: {
+        type: String,
+        default: 'left',
+        validator: function (value) {
+          console.log(value);
+          return !(value !== 'left' && value !== 'right');
+        }
+      }
+    }
+
   }
 </script>
 
@@ -42,12 +54,13 @@
       outline: none;
     }
 
-    &.icon-left,&.icon-undefined {
+    &.icon-left {
       > .icon {
         order: 1;
         margin-right: .1em;
       }
-      > .content{
+
+      > .content {
         order: 2;
       }
     }
