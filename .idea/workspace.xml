@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ef5d6d-ea5c-4152-9585-cf23054ee577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +45,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585361965661</updated>
-      <workItem from="1585361968143" duration="677000" />
+      <workItem from="1585361968143" duration="920000" />
     </task>
+    <task id="LOCAL-00001" summary="vue init">
+      <created>1585362940670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585362940670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vue init" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585362828851">
+    <state x="355" y="28" key="CommitChangelistDialog2" timestamp="1585362940469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585362828851" />
+    <state x="355" y="28" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585362940469" />
+    <state x="144" y="78" key="DiffContextDialog" timestamp="1585362901117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1585362901117" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585362991315">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585362991315" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585362979962">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585362979962" />
   </component>
 </project>
