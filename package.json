@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Forkeep/Ugly-UI/issues"
   },
-  "homepage": "https://github.com/Forkeep/Ugly-UI#readme"
+  "homepage": "https://github.com/Forkeep/Ugly-UI#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
